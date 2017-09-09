@@ -47,27 +47,27 @@ int main()
 {
 	Dist_A_Z_B X,Y;
 	int a[2],b[2],c[2],x[2],y[2],a_c_x_b,a_c_y_b,a_b;
-	cout<<"enter the location of the first person: "<<endl;
+	
 	for(int i=0;i<2;i++)
 	{
 		cin>>a[i];
 	}
-	cout<<"enter the location of the destination: "<<endl;
+	
 	for(int i=0;i<2;i++)
 	{
 		cin>>b[i];
 	} 
-	cout<<"enter the location at which driver gets the request: "<<endl;
+	
 	for(int i=0;i<2;i++)
 	{
 		cin>>c[i];
 	}
-	cout<<"enter the location of passenger X: "<<endl;
+	
 	for(int i=0;i<2;i++)
 	{
 		cin>>x[i];
 	}
-	cout<<"enter the location of passenger Y: "<<endl;
+	
 	for(int i=0;i<2;i++)
 	{
 		cin>>y[i];

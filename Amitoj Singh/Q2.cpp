@@ -36,20 +36,16 @@ int Route_Valid(int travel_time[], int ready_time[], int cancel_time[],int n)
 int main()
 {
 	int n;
-	cout<<"enter the number of requests"<<endl;
 	cin>>n;
 	int travel_time[n-1],ready_time[n-1],cancel_time[n-1];
-	cout<<"enter the travel times: "<<endl;
 	for(int i=0;i<n-1;i++)
 	{
 		cin>>travel_time[i];	
 	}
-	cout<<"enter the ready times: "<<endl;
 	for(int i=0;i<n;i++)
 	{
 		cin>>ready_time[i];
 	}
-	cout<<"enter the cancel times: "<<endl;
 	for(int i=0;i<n;i++)
 	{
 		cin>>cancel_time[i];

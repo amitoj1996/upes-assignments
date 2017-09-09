@@ -41,23 +41,18 @@ int TAA(char S[],int L[], int A, int B, int C,int N)
 int main()
 {
 	int N,A,B,C,T,E[3];
-	cout<<"enter the number of test cases";
 	cin>>T;
 	for(int j=0;j<T;j++)
 	{
-	
-		cout<<"Enter the number of integers in list L: ";
 		cin>>N;
 		char S[N];
 		int L[N];
 		
-		cout<<"enter the list of integers L: ";
 		for(int i=0;i<N;i++)
 		{
 			cin>>L[i];
 		}
 		cout<<endl;
-		cout<<"enter the values of A,B,C"<<endl;
 		for(int i=0;i<3;i++)
 		{
 			cin>>E[i];
@@ -65,7 +60,7 @@ int main()
 		A=E[0];
 		B=E[1];
 		C=E[2];
-		cout<<"enter the list of characters S: ";
+
 		for(int i=0;i<N;i++)
 		{
 		a:	cin>>S[i];
